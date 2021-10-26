@@ -1,10 +1,15 @@
 import React from "react"
 
-function Footer () {
+function Footer() {
+    const thisThingsType = "Footer";
+    const styles = {
+        color: "#FF8C00", 
+        backgroundColor: "#FF2D00",
+        fontSize: "25px"
+    }
     return (
-        <footer>
-            <h3>This a footeR!</h3>
-        </footer>
+        <footer style = {styles}>
+            This is a {`${thisThingsType}`}</footer>
     )
 }
 

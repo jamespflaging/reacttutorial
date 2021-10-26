@@ -1,10 +1,13 @@
-import React from "react"
+/*
+to do list
+*/
 
-function Header () {
+import React from "react"
+import '../../src/style.css';
+
+function Header() {
     return (
-        <header>
-            <h3>This a header</h3>
-        </header>
+        <header className="navbar">this a header</header>
     )
 }
 

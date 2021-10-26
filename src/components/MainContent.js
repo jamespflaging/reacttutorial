@@ -1,10 +1,8 @@
 import React from "react"
 
-function MainContent () {
+function MainContent() {
     return (
-        <main>
-            asd;flkas;ldfkha;s
-        </main>
+        <main>this the content</main>
     )
 }
 
